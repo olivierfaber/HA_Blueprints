@@ -1,8 +1,8 @@
 blueprint:
-  name: NOX motion-activated Light
-  description: Turn on a light when a zone opens.
+  name: NOX motion-activated Switch
+  description: Turn on a switch when a zone opens.
   domain: automation
-  source_url: https://github.com/olivierfaber/HA_Blueprints/blob/main/nox_motion_activated_light.yaml
+  source_url: https://github.com/olivierfaber/HA_Blueprints/blob/main/nox_motion_activated_switch.yaml
   input:
     motion_entity:
       name: Motion Sensor
